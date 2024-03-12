@@ -30,7 +30,6 @@ body {
     width: 100%;
     font-size: 32px;
 }
-<h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
 .titulo-principal span {
     color: var(--verde);
 }
@@ -52,14 +51,6 @@ body {
 .botoes {
     display: block;
 }
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-    .botao:first-child {
-        border-radius: 40px 40px 0 0;
-    
     @media screen and (min-width: 768px) {
         .botoes {
             display: flex;
